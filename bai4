@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Nhập gì đó :" id="a">
+    <button onclick="Check(a)">Kiểm tra</button>
+    <script>
+        function Check(a){
+            if(a ){
+                return true
+            }else{
+                return false
+            }
+
+        }let b = Check(a);
+        alert(b)
+    </script>
+</body>
+</html>
