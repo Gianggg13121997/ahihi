@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = +prompt("nhập số thứ nhất");
+        let b = +prompt("nhập số thứ hai :");
+        let c = +prompt("nhập số thứ 3 :");
+        let d = [a, b, c];
+        let min = 0;
+        function checkSoBeNhat(d){
+            
+            for( i =a; i< d.length; i++){
+                if(d[i] < min){
+                    min = d[i]
+                }
+            }alert("số bé nhất là :" + min)
+        } checkSoBeNhat(d)
+
+
+
+
+    </script>
+</body>
+
+</html>
