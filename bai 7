@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3> Hoán đổi 2 số : </h3>
+    
+    <script>
+        let a = +prompt("nhập số thứ nhất")
+        let b = +prompt("nhập số thứ hai :")
+
+        function doiCho(a, b) {
+            document.write( b + " , " + a)
+        }
+        doiCho(a,b)
+
+            
+        
+    </script>
+</body>
+
+</html>
